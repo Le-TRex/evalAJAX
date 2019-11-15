@@ -17,3 +17,4 @@ ATTENTION : l'application ne fonctionne qu'avec les numéros des personnages, pa
 
 Langages utilisés : HTML, CSS, JavaScript
 Technologies utilisées : AJAX
+
