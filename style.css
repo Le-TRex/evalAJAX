@@ -1,0 +1,187 @@
+body {
+    background-color: olivedrab;
+}
+main {
+    padding-bottom: 3vh;
+}
+
+main {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+a:hover{
+    cursor: url(./Saber.gif), pointer;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkolivegreen;
+}
+li{
+    float: left;
+    font-size: 1.4em;
+}
+li a {
+    display: block;
+    color: olivedrab;
+    text-align: center;
+    padding: 1vh 2vw;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+li a:hover {
+    color: darkolivegreen;
+    background-color: olivedrab;
+    text-shadow: none;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkolivegreen;
+}
+
+h1{
+    color: darkgreen;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+    text-decoration: underline;
+    margin-top: 5vh;
+}
+
+img {
+    width: auto;
+    max-height: 60vh;
+    display: block;
+    margin: auto;
+}
+
+p{
+    color: #004800;
+    text-align: center;
+}
+
+a img {
+    max-width: 20vw;
+    height:auto;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: olivedrab;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 2vw;
+    text-shadow: 1px 1px 2px black;
+    position: fixed;
+    bottom: 0vh;
+    width: 100vw;
+}
+footer a:link, footer a:visited, footer a:focus, footer a:active{
+    text-decoration: none;
+    color: olivedrab;
+}
+footer a:hover{
+    color: darkgreen;
+    text-shadow: white;
+}
+
+input {
+    margin-top: 2vw;
+}
+button {
+    color: darkgreen;
+}
+
+table {
+    border-collapse: collapse
+}
+
+td, th {
+    border: 1px solid darkolivegreen;
+    text-align: center;
+    width: 12.5vw;
+    height: 8vh;
+    font-size: 1.2em;
+}
+th {
+    background-color: darkolivegreen;
+    color: olivedrab;
+}
+td {
+    color: darkgreen;
+}
+
+form {
+    background-color: darkolivegreen;
+    max-height: 60vh;
+    max-width: 70vh;
+    margin: auto;
+    padding: 2vh 2vw 2vh 2vw;
+    text-align: center;
+    color: olivedrab;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width: 930px){
+    td, th {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    td, th {
+        width: 40vw;
+        font-size: 1em;
+        line-height: 8vh;        
+    }
+    table {
+        display: flex;
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    h1 {
+        font-size: 2em;
+    }
+    img {
+        max-width: 80vw;
+        height: auto;;
+    }
+}
+@media screen and (max-width: 475px) {
+    .navbar li {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    li{
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    footer {
+        font-size: 1.2em;
+    }
+}
+
